@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="164dp"
+        android:backgroundTint="#B8C816"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#CF1E1E"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#E80606"
+        android:textColorHighlight="#ED0909"
+        android:textColorHint="#DC0000"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible"
+        app:drawableTint="#E48484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="149dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="264dp"
+        android:background="#FD0404"
+        android:backgroundTint="#F40000"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:text="TAP"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:iconTint="#D80606"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#FF0909" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:contentDescription="@android:string/copy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/alert_dark_frame" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
